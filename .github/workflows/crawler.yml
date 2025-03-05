@@ -2,7 +2,7 @@ name: Weibo-Hot-Crawler
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '*/15 * * * *'
+    - cron: '*/15 * 1 * *'
 
 jobs:
   crawler:
